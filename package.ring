@@ -26,15 +26,13 @@ aPackageInfo = [
 		]
 	],
 	:files = 	[
-		"lib.ring",
 		"main.ring",
-		"applications/employee/Emp.ring",
-		"applications/employee/Image/emp.png",
-		"applications/employee/README.md",
 		"README.md"
 	],
 	:ringfolderfiles = 	[
-
+		"applications/employee/Emp.ring",
+		"applications/employee/Image/emp.png",
+		"applications/employee/README.md"
 	],
 	:windowsfiles = 	[
 
