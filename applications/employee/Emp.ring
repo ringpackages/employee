@@ -5,8 +5,8 @@
 ###----------------------------------------------------------
 
 
-load "guilib.ring"
-load "stdlib.ring"
+load "lightguilib.ring"
+load "stdlibcore.ring"
 
 import System.GUI
 
@@ -173,7 +173,7 @@ func inBox(text) {
 	{
 		setwindowtitle(text)
 		setlabeltext(text)
-		settextvalue("111")
+		settextvalue("1")
 		lcheck = exec()
 		if lCheck empNum = oInput.textvalue() ok
 	}
